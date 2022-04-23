@@ -50,3 +50,19 @@ Note: This action replace the last commit, so you only use it if it wasn't pushe
 - save and exit
 - Wriite the new commit message with "Create first and second file"
 - save and exit and that's all
+### Splitting Up a Commit
+- run:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    git rebase -i HEAD~2
+<!--endsec-->
+- Change the option pick to edit of commit "Create third file and fourth file"
+- run:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    git add test3.md ; git commit -m "Create third file"
+    git add test4.md ; git commit -m "Create fourth file"
+<!--endsec-->
+- exit rebase:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    git rebase --continue
+<!--endsec-->
+- See the new commits with: `git log`
