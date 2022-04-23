@@ -14,6 +14,12 @@ the file [Hello world](src/hello_world.txt) is used to probe the comands basic w
 ## Depper look at GIT
 - create 4 files: `New-Item testn,md - type file`. n represent 1,2,3,4.
 - To uddate repositories running the commands:
-<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
-    > git add test1.md ; git commit -m "Create first file"
+<!--sec data-title="Command: Windows" data-id="windows_git" data-collapse=true ces-->
+    git add test1.md ; git commit -m "Create first file"
+<!--endsec-->
+<!--sec data-title="Command: Windows" data-id="windows_git" data-collapse=true ces-->
+    git add test2.md ; git commit -m 'Create send file' 
+<!--endsec-->
+<!--sec data-title="Command: Windows" data-id="windows_git" data-collapse=true ces-->
+    git add test3.md ; git commit -m 'Create third file and create fourth file'
 <!--endsec-->
