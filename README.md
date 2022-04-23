@@ -66,3 +66,9 @@ Note: This action replace the last commit, so you only use it if it wasn't pushe
     git rebase --continue
 <!--endsec-->
 - See the new commits with: `git log`
+## Depper look at GIT
+- create 4 files: `New-Item testn,md - type file`. n represent 1,2,3,4.
+- To uddate repositories running the commands:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    > git add test1.md ; git commit -m "Create first file"
+<!--endsec-->
