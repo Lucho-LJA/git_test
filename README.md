@@ -46,4 +46,7 @@ Note: This action replace the last commit, so you only use it if it wasn't pushe
 <!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
     git rebase --root
 <!--endsec-->
-
+- Change the option commit "create second File" from pick to squash
+- save and exit
+- Wriite the new commit message with "Create first and second file"
+- save and exit and that's all
