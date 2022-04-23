@@ -41,3 +41,9 @@ Note: This action replace the last commit, so you only use it if it wasn't pushe
     git commit --amend
     git rebase --continue
 <!--endsec-->
+### Squashing Commits
+- To squash the commit "create second File", run:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    git rebase --root
+<!--endsec-->
+
