@@ -1,5 +1,5 @@
 # Git Test
-practice of git cmmands with Odin project
+practice of git cmmands with Odin project. The steps was done with `PowerShell`.
 ## Basic Comands
 the file [Hello world](src/hello_world.txt) is used to probe the comands basic with the nexts instrcuctions.
 - Following the instruction about basic GIT in Odin Project
@@ -10,3 +10,10 @@ the file [Hello world](src/hello_world.txt) is used to probe the comands basic w
 - Add all changes with: `git add .`.
 - Commit the changes with: `git commit -m "message abput changes"`.
 - Push the change to GitHub: `git push origin main`.
+
+## Depper look at GIT
+- create 4 files: `New-Item testn,md - type file`. n represent 1,2,3,4.
+- To uddate repositories running the commands:
+<!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
+    > git add test1.md ; git commit -m "Create first file"
+<!--endsec-->
