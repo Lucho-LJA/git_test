@@ -31,15 +31,13 @@ create 4 files: `New-Item testn,md - type file`. n represent 1,2,3,4.
 <!--endsec-->
 Note: This action replace the last commit, so you only use it if it wasn't pushed.
 ### Changing Multiple Commits
-### Changing Multiple Commits
-If we want to change some commit, use the comand `rebase -i`. To change 2 last commits run:
+- If we want to change some commit, use the comand `rebase -i`. To change 2 last commits run:
 <!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
     git log
     git rebase -i HEAD~2
 <!--endsec-->
-## Depper look at GIT
-- create 4 files: `New-Item testn,md - type file`. n represent 1,2,3,4.
-- To uddate repositories running the commands:
+- After select the options you can run the next comand to change the commit with `edit` option and finish all with the last comand.
 <!--sec data-title="Your first command: Windows" data-id="windows_whoami" data-collapse=true ces-->
-    > git add test1.md ; git commit -m "Create first file"
+    git commit --amend
+    git rebase --continue
 <!--endsec-->
